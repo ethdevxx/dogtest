@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Web3 from "web3";
 import { useState, useEffect } from 'react';
 
-import {ADDRESS, ABI} from "../config.js"
+import {ADDRESS, ABI} from "../../config.js"
 
 export default function Mint() {
 
